@@ -4,7 +4,7 @@ body
 }
 .logo
 {
-	height: 75px;
+	height: 35px;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -13,29 +13,56 @@ body
 .box
 {
 	background-color: white;
-	height: 400px;
-	width:400px;
+	width:320px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 60px;
-	padding: 50px;
+	padding: 40px;
 
 }
 label
 {
 	display: block;
+	width: 100%;
+	height: 15px;
+	/* this */
+	margin-top: 15px;
+	/* is the same as this */
+	
 }
 input
 {
 	display: block;
+	width: 286px;
+	height: 25px;
+	margin-top: 15px;
+	border: 2px #dcdcdc solid;
+	padding: 15px;
 }
+
+input:invalid {
+  border: 2px red solid;
+}
+
 button
 {
 	display: block;
+	height: 60px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #0dff9f;
+	color: #e0eeee;
+	border: 2px #dcdcdc solid;
+	font-size: 20px;
+	margin-top: 15px;
 }
 .password
 {
 	display: block;
+	margin-top: 15px;
+	text-align: center;
+	color: #c0c0c0;
 }
 h1
 {
